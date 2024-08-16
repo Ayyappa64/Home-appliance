@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Vema Home Appliances</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body{
+                background: url('signback.jpeg') no-repeat center/cover;
+            }
+
+            /*Smart Phone*/
+            @media screen and (min-width:320px){
+                body{
+                    background-color: blanchedalmond;
+                }
+            }
+            /*tablet,IPad*/
+            @media screen and (min-width:788px) and (max-width:1024px) {
+                body{
+                    background-color: cadetblue;
+                }
+                
+            }
+            /*Desktops and Laptops*/
+            @media screen and (min-width:1110px){
+                body{
+                    background-color: white;
+                }
+            }
+            /*Large Screens*/
+            @media screen and (min-width:1924px){
+                body{
+                    background-color: rgb(151,134,125);
+                }
+            }
+        </style>    
+    </head>
+        <nav>
+            <center>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Categories.html">Categories</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="./SignUp.html">Sign Up</a></li>
+                    <li><a href="./SignIn.html">Sign In</a></li>
+                </ul>
+            </center>
+        </nav>
+        <br>
+        <div align="center">
+            <h2> Registration Form</h2>
+            <br>
+            <form action="SignIn.html">
+                <label for="email"><b>Email:</b>  </label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password"><b>Password:</b></label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="age"><b>Age:</b></label>
+                <input type="number" id="age" name="age" required>
+                <br><br>
+                <label for="dob"><b>Date of Birth:</b></label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+                <label for="place"><b>Place:</b></label>
+                <input type="text" id="place" name="place" required>
+                <br><br>
+                <label for="address"><b>Address:</b></label>
+                <textarea id="address" name="address" required></textarea>
+                <br><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <footer>
+            <p>&copy; 2024 My website.All rights reserved</p>
+        </footer>
+    </body>
+</html>

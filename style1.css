@@ -1,0 +1,22 @@
+nav h1{
+    background-color: rgb(54, 194, 204);color: aliceblue;
+    padding: 10px;
+}
+nav   {
+    background-color: rgb(60, 60, 60);
+    align-content: center;
+}
+nav h2{
+    background-color: rgb(84, 212, 133);color: white;
+    padding: 5px;
+}
+h3 {
+    color:beige
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
